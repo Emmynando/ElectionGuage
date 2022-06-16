@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> Election Guage </title>
+        <script src="https://kit.fontawesome.com/b4e8286f89.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <!-- header -->
+        <div>
+            <h1> <img src = "ballot.png" alt = "election"> Election Guage</h1>
+        </div>
+
+        <div id = "header">
+            <h2> How Ready are you for the coming Election? Okay let's check?</h2>
+            
+        </div>
+
+        <div id = "container">
+            <form name ="myForm" id = "questionnaire">
+                <fieldset>
+                  <legend>Questions</legend>
+                  <label for="age"> 1. Are you over 18+ ?</label>
+                  <p> YES<input type="radio" class="age" value = "Yes" name = "age"> </p>
+                  <p>NO<input type="radio" class="age" value = "No" name = "age"> </p> <br>
+                  <label for="card">2. Do You have Voter's card? </label>
+                  <p> YES<input type="radio" class="card" value = "Yes" name = "card"> </p>
+                  <p>NO<input type="radio" class="card" value = "No" name ="card"> </p> <br>
+                  <label for="update">Have you been keeping updates about the election ?</label>
+                  <p> YES<input type="radio" class="update" value = "Yes" name ="update"> </p>
+                  <p>NO<input type="radio" class="update" value = "No" name ="update"> </p> <br>
+                  <label for="buying">Are you voting for the party that's buying your vote?</label>
+                  <p> YES<input type="radio" class="buying" value = "Yes" name ="buying"> </p>
+                  <p>NO<input type="radio" class="buying" value = "No" name ="buying"> </p> <br>
+                  <button input type="button" value="Submit" enterkeyhint = "send" 
+                  class = "check-guage">Submit</button>
+                </fieldset>
+              </form>
+        </div>
+
+        <section class ="section">
+            <p class = "notification"> Guage Loading....</p>
+        </section>
+        <script src = "script.js"></script>
+    </body>
+    <footter> &copy; Copyright. Okezie, Chukwuemeka. 2022</footter>
+</html>
